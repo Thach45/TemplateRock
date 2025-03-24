@@ -28,6 +28,7 @@ import { Badge } from "@/components/ui/badge"
 import { Card, CardContent } from "@/components/ui/card"
 import { useLanguage } from "@/lib/i18n/language-context"
 
+
 // Sample template data
 const templates = [
   {
