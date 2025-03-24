@@ -1,7 +1,7 @@
 import type { ReactNode } from "react"
 import AdminSidebar from "@/components/admin/sidebar"
 import AdminHeader from "@/components/admin/header"
-import { LanguageProvider } from "@/lib/i18n/language-context"
+
 
 export const metadata = {
   title: "Admin Dashboard - TemplateLab",
@@ -10,7 +10,7 @@ export const metadata = {
 
 export default function AdminLayout({ children }: { children: ReactNode }) {
   return (
-    <LanguageProvider>
+   
       <div className="min-h-screen bg-muted/40">
         <div className="flex h-screen overflow-hidden">
           <AdminSidebar />
@@ -22,7 +22,7 @@ export default function AdminLayout({ children }: { children: ReactNode }) {
           </div>
         </div>
       </div>
-    </LanguageProvider>
+  
   )
 }
 
